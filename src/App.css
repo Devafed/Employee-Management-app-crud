@@ -1,10 +1,66 @@
 .App {
   text-align: center;
 }
+.bg-form {
+  background: #07316b !important;
+  color: #cadcfc !important;
+  width: 35vw;
+  margin: 2em auto 0;
+}
+.bg-listing {
+  background: #07316b !important;
+  color: #cadcfc !important;
+  margin-top: 5rem;
+}
+.btn {
+  width: 125px;
+  background: #fff !important;
+  max-width: 125px;
+  color: #000 !important;
+  margin-right: 15px !important;
+}
+.btn:hover {
+  background: #1453a9 !important;
+  color: #fff !important;
+  font-weight: 400;
+  font-size: 16px;
+}
+.grn-btn {
+  border: 1px solid #2a7c04 !important;
+}
+table {
+  vertical-align: initial !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  display: inline-table;
+}
+table th {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+table tr td {
+  font-size: 14px !important;
+  font-weight: 400 !important;
+}
+.back-btn {
+  border: 1px solid #e04242 !important;
+}
+.grn-btn:hover {
+  background: #2a7c04 !important;
+}
+.back-btn:hover {
+  background: #e04242 !important;
+}
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.btn {
+  margin: 2px;
+}
+.divbtn {
+  float: left;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -27,6 +83,9 @@
 .App-link {
   color: #61dafb;
 }
+.card {
+  overflow-x: hidden !important;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -34,5 +93,23 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 992px) {
+  .bg-form {
+    width: 50vw;
+    margin: 2em auto 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  table {
+    overflow-x: scroll;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .bg-form {
+    width: 100%;
+    margin: 2em auto 0;
   }
 }
